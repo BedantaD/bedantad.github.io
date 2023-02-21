@@ -58,11 +58,12 @@ body {
   }
   
   .projects a:hover {
-    color: rgb(228, 175, 241);
+    color: rgb(255, 255, 255);
   }
+
   
   .projects a:active {
-    color: rgb(206, 151, 238);
+    color: rgb(255, 255, 255);
   }
   
   .contact p {
@@ -82,5 +83,20 @@ body {
   
   .contact a:active {
     color: rgb(174, 77, 230);
+  }
+
+  ul.projects a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color: #3358d3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  ul.projects a:hover {
+    background-color: #0d1a8a;
   }
   

@@ -11,6 +11,7 @@ function showHead() {
 function showSkull() {
     var username = document.getElementById('mc-username').value;
     var headDiv = document.getElementById('mc-head');
+
     if (username.length > 0) {
         headDiv.style.display = 'block';
         headDiv.style.backgroundImage = `url('https://crafthead.net/avatar/${username}/150.png')`;
