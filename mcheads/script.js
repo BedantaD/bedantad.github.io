@@ -3,7 +3,7 @@ function showHead() {
     var headDiv = document.getElementById('mc-head');
     if (username.length > 0) {
         headDiv.style.display = 'block';
-        headDiv.style.backgroundImage = `url('https://crafthead.net/helm/${username}/150.png')`;
+        headDiv.style.backgroundImage = `url('https://minotar.net/helm/${username}/150.png')`;
         document.getElementById('save-button').style.display = 'block';
     }
 }
@@ -14,7 +14,7 @@ function showSkull() {
 
     if (username.length > 0) {
         headDiv.style.display = 'block';
-        headDiv.style.backgroundImage = `url('https://crafthead.net/avatar/${username}/150.png')`;
+        headDiv.style.backgroundImage = `url('https://minotar.net/avatar/${username}/150.png')`;
         document.getElementById('save-button').style.display = 'block';
     }
 }
